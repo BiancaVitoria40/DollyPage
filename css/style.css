@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu_navegacao{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #DEEAB9;
+}
+
+ul, li{
+
+    display: inline-block;
+    margin-left: 24px;
+    color:rgb(15, 22, 2);
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+
+.img_logo {
+    width: 96px;
+    height: 96px;
+}
+
+.conteudo_principal{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+
+h1, h2, h3{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    color: #006633;
+    
+}
+
+h2{
+    font-weight: 300;
+}
+
+h3 {
+    background-color: #006633;
+    border-radius: 4px;
+    padding: 4px;
+    color:white;
+    margin: 8px 0 8px;
+}
+
+.videos_conteudo{
+    color: #69aeb3;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 180px;
+    margin-left: 280px;
+    
+
+}
+
+iframe{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 20px;
+    
+    
+    
+    
+}
+
+.videos{
+    display: flex;
+    justify-content: center;
+  
+    
+    
+}
+
+.info_siga{
+    color: #69aeb3;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-left: 280px;
+    font-size: 18px;
+  
+    
+
+
+}
+
+.icones{
+    position: relative;
+    margin-left: 500px;
+}
+
+.icones img{
+    margin-top: 9px;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+   
+
+}
+
+.icones a{
+    text-decoration: none;
+}
+
+.conteudo_final{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #006633;
+}
+
+.info_final{
+    display: flex;
+    align-items: center;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    margin-left: 150px;
+}
+
+.info_final p{
+    margin-left: 100px;
+    margin-right: 200px;
+}
+
+.info_final img{
+    margin-left: 20px;
+}
+
+.logo_face, .logo_insta , .logo_kwai, .logo_tiktok, .logo_youtube, .logo_twitter, .logo_linkedin, .logo_threads{
+    display: flex; 
+    width: 25px;
+    height: 25px;
+
+}
+
